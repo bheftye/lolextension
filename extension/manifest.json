@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  
+  "name": "Noticias Diario de Yucatán",
+  "description": "Visualizar noticias del Diario de Yucatán.",
+  "version": "0.2",
+  "content_scripts": [
+    {
+      
+      "js": ["jquery.js", "popup.js"],
+      "css": [ "bootstrap.min.css" ],
+      "matches": ["http://www.google.com/*"]
+    }
+  ],
+  "permissions": [ "management" , "http://brentheftye.mx" ],
+  
+  "browser_action": {
+    "default_icon": "rss_icon.png",
+    "default_popup": "index.html",
+	  "default_title": "RSS Diario de Yucatán"
+  }
+}
