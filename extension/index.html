@@ -9,13 +9,26 @@
 </head>
 
 <body>
-  	<div style="height:350px;width:350px;">
+  	<div style="height:450px;width:450px;">
   	  <div class="text-center">
-  	  	 <h1>RSS<br>Diario de Yucatán</h1>
-	  <button class="btn btn-primary" onClick="window.location.reload() " >Refrescar</button>
+        <form action="#" onsubmit="return getSummonerInfo()">
+  	  	 <h1>League of Legends Extension</h1>
+         <input type="text" placeholder="Summoner Name" id="summname" style="width:100%;height:35px;font-size:20px;">
+         <select id="server">
+           <option value="BR">BR</option>
+           <option value="EUNE">EUNE</option>
+           <option value="EUW">EUW</option>
+           <option value="KR">KR</option>
+           <option value="LAN">LAN</option>
+           <option value="LAS">LAS</option>
+           <option value="NA">NA</option>
+           <option value="OCE">OCE</option>
+           <option value="RU">RU</option>
+           <option value="TR">TR</option>
+         </select>
+	       <input class="btn btn-primary" type="button" value="Search" id="submit_button">
+      </form>
   	  </div>	
-	 
-
 	  <p id="elemento"></p>
 	</div>
 </body>

@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
   
-  "name": "Noticias Diario de Yucatán",
-  "description": "Visualizar noticias del Diario de Yucatán.",
+  "name": "League of Legends Extension",
+  "description": "Busca partidas, comparte con tus amigos.",
   "version": "0.2",
   "content_scripts": [
     {
@@ -12,11 +12,11 @@
       "matches": ["http://www.google.com/*"]
     }
   ],
-  "permissions": [ "management" , "http://brentheftye.mx" ],
+  "permissions": [ "management" , "http://localhost:8888/lolextension" ],
   
   "browser_action": {
-    "default_icon": "rss_icon.png",
+    "default_icon": "lol_icon.png",
     "default_popup": "index.html",
-	  "default_title": "RSS Diario de Yucatán"
+	  "default_title": "League of Legends Extension"
   }
 }
