@@ -7,7 +7,7 @@
   "content_scripts": [
     {
       
-      "js": ["jquery.js", "popup.js"],
+      "js": ["jquery.js", "popup.js", "html2canvas.js"],
       "css": [ "bootstrap.min.css" ],
       "matches": ["http://www.google.com/*"]
     }
