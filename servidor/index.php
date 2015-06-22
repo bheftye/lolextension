@@ -14,61 +14,96 @@
 		$jsonurl2 = "https://lan.api.pvp.net/observer-mode/rest/consumer/getSpectatorGameInfo/".$servers[$server]."/".$summoner_id."?api_key=".$api_key;
 		$json2 = file_get_contents($jsonurl2);
 		$game_array = json_decode($json2, true);
-		$finalJson = "			
-			<table style='width:100%;margin-top:100px;border:solid 1px #eee;'>
-				<thead style='background-color:#eee;'>
-					<th>Summoner Name</th>
-					<th>Champion</th>
-					<th>Tier</th>
-				</thead>
-				<tbody>
-		 	";
-		 $index = 1;
+
+		$summonerIds = "";
+		$summoners_array = "";
+		$x = 0;
 		foreach ($game_array["participants"] as $participant) {
-			$profileIconId = $participant["profileIconId"];
+			$summonerIds.= $participant["summonerId"];
+			if($x + 1 !=  count($game_array["participants"])){
+				$summonerIds.= ",";
+			}
+			$x++;
+		}
+		
+		$jsonurl3 = "";
+		
 
-			$Champion = new Champion($participant["championId"]);
-			$Champion -> get();
+		if($summonerIds != ""){
+			$jsonurl3 = "https://lan.api.pvp.net/api/lol/lan/v2.5/league/by-summoner/".$summonerIds."/entry?api_key=42fafbb1-0736-4c03-add6-21c3c4f18830";
+			$json3 = file_get_contents($jsonurl3);
+			$summoners_array = json_decode($json3, true);
 
-			$SummonerSpell1 = new SummonerSpell($participant["spell1Id"]);
-			$SummonerSpell1 -> get();
-
-			$SummonerSpell2 = new SummonerSpell($participant["spell2Id"]);
-			$SummonerSpell2 -> get();
-
-			$finalJson.= "
-					<tr style='text-align:center;padding-top:10px;'>
-						<td>
-							<img src='http://ddragon.leagueoflegends.com/cdn/5.2.1/img/profileicon/".$profileIconId.".png' style='width:30;height:30px;clear:none;float:left;'>
-							".$participant["summonerName"]."
-						</td>
-						<td>
-							<div style='margin:0 auto;display:table;'>
-								<img src='http://ddragon.leagueoflegends.com/cdn/5.2.1/img/champion/".$Champion -> championName.".png ' style='width:30;height:30px;clear:none;float:left;'>
-								<div style='height:30px;width:15px;clear:none;float:left;'>
-									<img src='http://ddragon.leagueoflegends.com/cdn/5.2.1/img/spell/".$SummonerSpell1 -> summonerSpellName.".png' style='width:15px;height:15px;margin-top:-5px;'>
-									<br>
-									<img src='http://ddragon.leagueoflegends.com/cdn/5.2.1/img/spell/".$SummonerSpell2 -> summonerSpellName.".png' style='width:15px;height:15px;margin-top:-15px;'>
-								</div>
-							</div>
-						</td>
-						<td>Tier</td>
-					</tr>
-
-
-				 ";
-			$index++;
-			if($index == 6){
-				$finalJson.= "</tbody>
-					 </table>
-					 <br><br>
-					 <table style='width:100%;border:solid 1px #eee;'>
-					 <thead style='background-color:#eee;'>
-						<th>Summoner Name</th>
-						<th>Champion</th>
-						<th>Tier</th>
+			$finalJson = "			
+				<table style='width:100%;margin-top:100px;border:solid 1px #eee;'>
+					<thead style='background-color:#eee;'>
+						<th style='text-align:center;'>Summoner Name</th>
+						<th style='text-align:center;'>Champion</th>
+						<th style='text-align:center;'>Tier</th>
 					</thead>
-					<tbody>";
+					<tbody>
+			 	";
+			$index = 1;
+			foreach ($game_array["participants"] as $participant) {
+				$profileIconId = $participant["profileIconId"];
+				$participantId = $participant["summonerId"];
+				$tier = "Unranked";
+				$division = "None";
+				$leaguePoints = "0";
+
+				$entries = $summoners_array[$participantId];
+				foreach ($entries as $entry) {
+					if($entry["queue"] == "RANKED_SOLO_5x5"){
+						$leaguePoints = $entry["entries"][0]["leaguePoints"];
+						$division = $entry["entries"][0]["division"];
+						$tier = $entry["tier"];
+					}
+				}
+
+
+				$Champion = new Champion($participant["championId"]);
+				$Champion -> get();
+
+				$SummonerSpell1 = new SummonerSpell($participant["spell1Id"]);
+				$SummonerSpell1 -> get();
+
+				$SummonerSpell2 = new SummonerSpell($participant["spell2Id"]);
+				$SummonerSpell2 -> get();
+
+				$finalJson.= "
+						<tr style='text-align:center;padding-top:10px;'>
+							<td>
+								<img src='http://ddragon.leagueoflegends.com/cdn/5.2.1/img/profileicon/".$profileIconId.".png' style='width:30;height:30px;clear:none;float:left;'>
+								".$participant["summonerName"]."
+							</td>
+							<td>
+								<div style='margin:0 auto;display:table;'>
+									<img src='http://ddragon.leagueoflegends.com/cdn/5.2.1/img/champion/".$Champion -> championName.".png ' style='width:30;height:30px;clear:none;float:left;'>
+									<div style='height:30px;width:15px;clear:none;float:left;'>
+										<img src='http://ddragon.leagueoflegends.com/cdn/5.2.1/img/spell/".$SummonerSpell1 -> summonerSpellName.".png' style='width:15px;height:15px;margin-top:-5px;'>
+										<br>
+										<img src='http://ddragon.leagueoflegends.com/cdn/5.2.1/img/spell/".$SummonerSpell2 -> summonerSpellName.".png' style='width:15px;height:15px;margin-top:-15px;'>
+									</div>
+								</div>
+							</td>
+							<td>".$tier." ".$division."(".$leaguePoints.")</td>
+						</tr>
+
+
+					 ";
+				$index++;
+				if($index == 6){
+					$finalJson.= "</tbody>
+						 </table>
+						 <br><br>
+						 <table style='width:100%;border:solid 1px #eee;'>
+						 <thead style='background-color:#eee;'>
+							<th style='text-align:center;'>Summoner Name</th>
+							<th style='text-align:center;'>Champion</th>
+							<th style='text-align:center;'>Tier</th>
+						</thead>
+						<tbody>";
+				}
 			}
 		}
 
