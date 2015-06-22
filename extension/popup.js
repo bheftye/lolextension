@@ -83,7 +83,7 @@ function shareSearch(){
           url: "http://localhost:8888/lolextension/servidor/img_handler.php",
           data: data,
           success: function(data) {
-              console.log(data);
+              
           }
         });
     }
