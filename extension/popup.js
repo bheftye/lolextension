@@ -47,16 +47,11 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function shareSearch(){
-  var blob = generate();
-  var base64data;
+  $("form").hide();
+  /*var blob = generate();
+  var base64data;*/
 
-  var reader = new window.FileReader();
-  reader.readAsDataURL(blob); 
-  reader.onloadend = function() {
-    base64data = reader.result;                
-  }
-
-  var xmlhttp;
+  /*var xmlhttp;
   if (window.XMLHttpRequest){// code for IE7+, Firefox, Chrome, Opera, Safari
     xmlhttp=new XMLHttpRequest();
   }
@@ -65,13 +60,34 @@ function shareSearch(){
   }
   xmlhttp.onreadystatechange=function(){
     if (xmlhttp.readyState == 4 && xmlhttp.status == 200){
-      console.log(JSON.parse(xmlhttp.responseText);
-)
+      console.log(xmlhttp.responseText);
     }
-  }
+  }*/
 
-  xmlhttp.open("POST","http://localhost:8888/lolextension/servidor/img_handler.php",true);
-  xmlhttp.send(base64data);
+  html2canvas(document.body, {
+    onrendered: function(canvas) {
+      var dataURL = canvas.toDataURL();
+      //ar params = "img="+dataURL;
+      //xmlhttp.open("POST","http://localhost:8888/lolextension/servidor/img_handler.php",true);
+      //xmlhttp.send(params);
+      console.log(dataURL);
+      var data = new FormData;
+          data.append('img', dataURL);
+
+        jQuery.ajax({
+          type: "POST",
+          async: false,
+          contentType: false,
+          processData:false,
+          cache:false,
+          url: "http://localhost:8888/lolextension/servidor/img_handler.php",
+          data: data,
+          success: function(data) {
+              console.log(data);
+          }
+        });
+    }
+  });
 
 }
 

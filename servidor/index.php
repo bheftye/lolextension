@@ -35,13 +35,13 @@
 			$summoners_array = json_decode($json3, true);
 
 			$finalJson = "			
-				<table style='width:100%;margin-top:100px;border:solid 1px #eee;'>
-					<thead style='background-color:#eee;'>
+				<table style='width:100%;margin-top:100px;border:solid 1px #eee;padding-left:5px;padding-right:5px;background:white;'>
+					<thead style='background-color:#333;border-bottom:solid 5px #041c4c;color:white;'>
 						<th style='text-align:center;'>Summoner Name</th>
 						<th style='text-align:center;'>Champion</th>
 						<th style='text-align:center;'>Tier</th>
 					</thead>
-					<tbody>
+					<tbody style='margin-top:15px;'>
 			 	";
 			$index = 1;
 			foreach ($game_array["participants"] as $participant) {
@@ -72,17 +72,18 @@
 
 				$finalJson.= "
 						<tr style='text-align:center;padding-top:10px;'>
-							<td>
+							<td><a href='http://".$server.".op.gg/summoner/userName=".$participant["summonerName"]."'>
 								<img src='http://ddragon.leagueoflegends.com/cdn/5.2.1/img/profileicon/".$profileIconId.".png' style='width:30;height:30px;clear:none;float:left;'>
 								".$participant["summonerName"]."
+								</a>
 							</td>
 							<td>
 								<div style='margin:0 auto;display:table;'>
-									<img src='http://ddragon.leagueoflegends.com/cdn/5.2.1/img/champion/".$Champion -> championName.".png ' style='width:30;height:30px;clear:none;float:left;'>
+									<img src='images/".$Champion -> championName.".png ' style='width:30;height:30px;clear:none;float:left;'>
 									<div style='height:30px;width:15px;clear:none;float:left;'>
-										<img src='http://ddragon.leagueoflegends.com/cdn/5.2.1/img/spell/".$SummonerSpell1 -> summonerSpellName.".png' style='width:15px;height:15px;margin-top:-5px;'>
+										<img src='images/".$SummonerSpell1 -> summonerSpellName.".png' style='width:15px;height:15px;margin-top:-5px;'>
 										<br>
-										<img src='http://ddragon.leagueoflegends.com/cdn/5.2.1/img/spell/".$SummonerSpell2 -> summonerSpellName.".png' style='width:15px;height:15px;margin-top:-15px;'>
+										<img src='images/".$SummonerSpell2 -> summonerSpellName.".png' style='width:15px;height:15px;margin-top:-15px;'>
 									</div>
 								</div>
 							</td>
@@ -96,13 +97,13 @@
 					$finalJson.= "</tbody>
 						 </table>
 						 <br><br>
-						 <table style='width:100%;border:solid 1px #eee;'>
-						 <thead style='background-color:#eee;'>
+						 <table style='width:100%;border:solid 1px #eee;padding-left:5px;padding-right:5px;background:white;'>
+						 	<thead style='background-color:#333;border-bottom:solid 5px #581618;color:white;'>
 							<th style='text-align:center;'>Summoner Name</th>
 							<th style='text-align:center;'>Champion</th>
 							<th style='text-align:center;'>Tier</th>
 						</thead>
-						<tbody>";
+						<tbody style='margin-top:15px;'>";
 				}
 			}
 		}

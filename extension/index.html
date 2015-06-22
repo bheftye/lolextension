@@ -15,16 +15,20 @@
   form{
     font-family: "League";
   }
+
+  table{
+    font-family: "League";
+  }
   </style>
 </head>
 
-<body>
-  	<div style="height:450px;width:450px;">
+<body style="">
+  	<div style="height:auto;overflow:auto;width:450px;background-image:url(images/bg.png), url(images/Ekko_0.jpg) ;background-size:auto, 100% auto; background-repeat:repeat, repeat-y;padding-bottom:20px;">
   	  <div class="text-center">
+        <h1 style="color:white;">League of Legends Extension</h1>
         <form action="#" onsubmit="return getSummonerInfo()" style="width:90%;margin:0 auto;">
-  	  	 <h1>League of Legends Extension</h1>
          <input type="text" class="col-xs-12" placeholder="Summoner Name" id="summname" style="height:35px;font-size:20px;margin-bottom:20px;">
-         <label class="col-xs-12" style="text-align:left;">Select a server</label>
+         <label class="col-xs-12" style="text-align:left;color:white;">Select a server</label>
          <select id="server" class="col-xs-12" >
            <option value="BR">BR</option>
            <option value="EUNE">EUNE</option>
@@ -39,10 +43,10 @@
          </select>
          <div class="clearfix"></div>
 	       <input class="btn btn-primary col-xs-12" style="margin-top:20px;" type="button" value="Search Current Game" id="submit_button">
-         <input class="btn btn-success col-xs-12 hidden-xs" style="margin-top:20px;" type="button" value="Share on Facebook" id="share_button">
+         <input class="btn btn-success col-xs-12 hidden-xs" style="margin-top:20px;margin-bottom:20px;" type="button" value="Share on Facebook" id="share_button">
       </form>
   	  </div>	
-	  <p id="elemento"></p>
+	  <p id="elemento" style="margin-top:20px;"></p>
 	</div>
 </body>
 </html>
