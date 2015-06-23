@@ -1,0 +1,65 @@
+@font-face {
+      font-family: "League";
+      src: url(Friz Quadrata Regular.woff) format("woff");
+  }
+  form{
+    font-family: "League";
+    width:90%;
+    margin:0 auto;
+  }
+
+  table{
+    font-family: "League";
+    border:hidden;
+    padding-left:10px;
+    padding-right:10px;
+  }
+
+  table tr{
+    border:solid 1px;
+    padding-top:5px;
+    padding-bottom: 5px;
+  }
+
+  #facebook_load_frame {
+   width:1px;
+   height:1px;
+   border:0;
+   position:absolute;
+   top:0;
+   left:0;
+   display:none;
+  }
+
+#background{
+  height:auto;
+  overflow:auto;
+  width:600px;
+  background-image:url(images/bg.png),url(images/Ekko_0.jpg) ;
+  background-size:auto, 100% auto; 
+  background-repeat:repeat, repeat-y;
+  padding-bottom:20px;
+}
+
+input[type="text"]{
+  height:35px;
+  font-size:20px;
+  margin-bottom:20px;
+  margin-top:20px;
+}
+
+label.col-xs-12{
+  font-size:16px;
+  font-family: "League";
+  color:white;
+  padding-left:0;
+  padding-right:0;
+  text-align: left;
+  font-weight: 400;
+}
+
+select{
+  height:35px;
+  font-size: 16px;
+}
+

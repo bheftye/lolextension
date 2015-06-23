@@ -8,11 +8,13 @@
     {
       
       "js": ["jquery.js", "popup.js", "html2canvas.js"],
-      "css": [ "bootstrap.min.css" ],
-      "matches": ["http://www.google.com/*"]
+      "css": [ "bootstrap.min.css", "style.css"],
+      "matches": ["http://www.google.com/*", "http://www.brentheftye.mx"],
+      "run_at" : "document_start",
+      "all_frames" : false
     }
   ],
-  "permissions": [ "management" , "http://localhost:8888/lolextension" ],
+  "permissions": [ "management" , "http://localhost:8888/lolextension", "http://brentheftye.mx/lolextension/servidor/", "tabs","<all_urls>", "http://*.facebook.com/*", "https://connect.facebook.net/en_US/sdk.js"],
   
   "browser_action": {
     "default_icon": "lol_icon.png",

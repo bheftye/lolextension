@@ -72,7 +72,7 @@
 
 				$finalJson.= "
 						<tr style='text-align:center;padding-top:10px;'>
-							<td><a href='http://".$server.".op.gg/summoner/userName=".$participant["summonerName"]."'>
+							<td><a target='_blank' href='http://".$server.".op.gg/summoner/userName=".$participant["summonerName"]."'>
 								<img src='http://ddragon.leagueoflegends.com/cdn/5.2.1/img/profileicon/".$profileIconId.".png' style='width:30;height:30px;clear:none;float:left;'>
 								".$participant["summonerName"]."
 								</a>
