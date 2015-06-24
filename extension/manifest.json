@@ -9,7 +9,7 @@
       
       "js": ["jquery.js", "popup.js", "html2canvas.js"],
       "css": [ "bootstrap.min.css", "style.css"],
-      "matches": ["http://www.google.com/*", "http://www.brentheftye.mx"],
+      "matches": ["http://www.google.com/*", "http://www.brentheftye.mx/"],
       "run_at" : "document_start",
       "all_frames" : false
     }
