@@ -2,6 +2,10 @@
 
 function getSummonerInfo(){
 
+    document.getElementById("elemento").innerHTML= '';
+    if(!$("#share_button").hasClass("hidden-xs"))
+      $("#share_button").addClass("hidden-xs");
+
     if($("#summname").val() != ""){
       var xmlhttp;
       if (window.XMLHttpRequest)
@@ -16,8 +20,25 @@ function getSummonerInfo(){
         {
         if (xmlhttp.readyState==4 && xmlhttp.status==200)
           {
-          document.getElementById("elemento").innerHTML= JSON.parse(xmlhttp.responseText);
-          $("#share_button").removeClass("hidden-xs");
+            try{
+              var response = JSON.parse(xmlhttp.responseText);
+
+              if(response){
+                if(response.success){
+                  document.getElementById("elemento").innerHTML= response.response;
+                  if($("#share_button").hasClass("hidden-xs"))
+                    $("#share_button").removeClass("hidden-xs");
+                }
+                else{
+                  document.getElementById("elemento").innerHTML= '<br> <div style="color:white;font-size:16px"> '+response.response+'</div>';
+                  if(!$("#share_button").hasClass("hidden-xs"))
+                    $("#share_button").addClass("hidden-xs");
+                }
+              }
+              
+            }catch(e){
+              console.log(e.message,xmlhttp.responseText);
+            }
           }
         }
       //var params = "summ="+$("#summname").val()+"&serv="+$("#server").val();
