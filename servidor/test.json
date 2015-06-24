@@ -1,0 +1,1510 @@
+{"nightbloo": {
+   "id": 45506047,
+   "name": "NightBloo",
+   "profileIconId": 693,
+   "revisionDate": 1435126459000,
+   "summonerLevel": 30
+}}
+
+{"fatamerican": {
+   "id": 35174202,
+   "name": "Fat American",
+   "profileIconId": 545,
+   "revisionDate": 1431659693000,
+   "summonerLevel": 30
+}}
+
+{"50shadesofeyy": {
+   "id": 63556984,
+   "name": "50 Shades of Eyy",
+   "profileIconId": 28,
+   "revisionDate": 1435156304000,
+   "summonerLevel": 30
+}}
+
+{
+   "gameLength": 987,
+   "gameMode": "CLASSIC",
+   "mapId": 11,
+   "bannedChampions": [
+      {
+         "pickTurn": 1,
+         "championId": 30,
+         "teamId": 100
+      },
+      {
+         "pickTurn": 2,
+         "championId": 113,
+         "teamId": 200
+      },
+      {
+         "pickTurn": 3,
+         "championId": 79,
+         "teamId": 100
+      },
+      {
+         "pickTurn": 4,
+         "championId": 421,
+         "teamId": 200
+      },
+      {
+         "pickTurn": 5,
+         "championId": 429,
+         "teamId": 100
+      },
+      {
+         "pickTurn": 6,
+         "championId": 120,
+         "teamId": 200
+      }
+   ],
+   "gameType": "MATCHED_GAME",
+   "gameId": 1866031743,
+   "observers": {"encryptionKey": "l/rcKh5JvjnUGlQtmlb/ThotikqdAUQ/"},
+   "gameQueueConfigId": 4,
+   "gameStartTime": 1435156719196,
+   "participants": [
+      {
+         "masteries": [
+            {
+               "rank": 4,
+               "masteryId": 4113
+            },
+            {
+               "rank": 1,
+               "masteryId": 4114
+            },
+            {
+               "rank": 3,
+               "masteryId": 4122
+            },
+            {
+               "rank": 1,
+               "masteryId": 4132
+            },
+            {
+               "rank": 3,
+               "masteryId": 4134
+            },
+            {
+               "rank": 1,
+               "masteryId": 4144
+            },
+            {
+               "rank": 2,
+               "masteryId": 4211
+            },
+            {
+               "rank": 2,
+               "masteryId": 4214
+            },
+            {
+               "rank": 3,
+               "masteryId": 4222
+            },
+            {
+               "rank": 1,
+               "masteryId": 4224
+            },
+            {
+               "rank": 1,
+               "masteryId": 4232
+            },
+            {
+               "rank": 3,
+               "masteryId": 4233
+            },
+            {
+               "rank": 3,
+               "masteryId": 4234
+            },
+            {
+               "rank": 1,
+               "masteryId": 4243
+            },
+            {
+               "rank": 1,
+               "masteryId": 4244
+            }
+         ],
+         "bot": false,
+         "runes": [
+            {
+               "count": 9,
+               "runeId": 5245
+            },
+            {
+               "count": 8,
+               "runeId": 5295
+            },
+            {
+               "count": 9,
+               "runeId": 5318
+            },
+            {
+               "count": 3,
+               "runeId": 5335
+            }
+         ],
+         "spell2Id": 6,
+         "profileIconId": 720,
+         "summonerName": "200 Ping King",
+         "championId": 2,
+         "teamId": 100,
+         "summonerId": 68799078,
+         "spell1Id": 11
+      },
+      {
+         "masteries": [
+            {
+               "rank": 4,
+               "masteryId": 4113
+            },
+            {
+               "rank": 1,
+               "masteryId": 4121
+            },
+            {
+               "rank": 3,
+               "masteryId": 4123
+            },
+            {
+               "rank": 1,
+               "masteryId": 4133
+            },
+            {
+               "rank": 1,
+               "masteryId": 4211
+            },
+            {
+               "rank": 2,
+               "masteryId": 4212
+            },
+            {
+               "rank": 2,
+               "masteryId": 4214
+            },
+            {
+               "rank": 3,
+               "masteryId": 4222
+            },
+            {
+               "rank": 1,
+               "masteryId": 4232
+            },
+            {
+               "rank": 3,
+               "masteryId": 4233
+            },
+            {
+               "rank": 3,
+               "masteryId": 4234
+            },
+            {
+               "rank": 1,
+               "masteryId": 4243
+            },
+            {
+               "rank": 1,
+               "masteryId": 4244
+            },
+            {
+               "rank": 3,
+               "masteryId": 4252
+            },
+            {
+               "rank": 1,
+               "masteryId": 4262
+            }
+         ],
+         "bot": false,
+         "runes": [
+            {
+               "count": 9,
+               "runeId": 5273
+            },
+            {
+               "count": 1,
+               "runeId": 5287
+            },
+            {
+               "count": 8,
+               "runeId": 5297
+            },
+            {
+               "count": 9,
+               "runeId": 5317
+            },
+            {
+               "count": 3,
+               "runeId": 5357
+            }
+         ],
+         "spell2Id": 4,
+         "profileIconId": 11,
+         "summonerName": "Le Petit Negro",
+         "championId": 245,
+         "teamId": 100,
+         "summonerId": 29393009,
+         "spell1Id": 12
+      },
+      {
+         "masteries": [
+            {
+               "rank": 4,
+               "masteryId": 4113
+            },
+            {
+               "rank": 1,
+               "masteryId": 4114
+            },
+            {
+               "rank": 3,
+               "masteryId": 4123
+            },
+            {
+               "rank": 1,
+               "masteryId": 4124
+            },
+            {
+               "rank": 1,
+               "masteryId": 4133
+            },
+            {
+               "rank": 3,
+               "masteryId": 4134
+            },
+            {
+               "rank": 3,
+               "masteryId": 4143
+            },
+            {
+               "rank": 1,
+               "masteryId": 4144
+            },
+            {
+               "rank": 2,
+               "masteryId": 4152
+            },
+            {
+               "rank": 1,
+               "masteryId": 4154
+            },
+            {
+               "rank": 1,
+               "masteryId": 4162
+            },
+            {
+               "rank": 1,
+               "masteryId": 4311
+            },
+            {
+               "rank": 3,
+               "masteryId": 4313
+            },
+            {
+               "rank": 2,
+               "masteryId": 4322
+            },
+            {
+               "rank": 1,
+               "masteryId": 4323
+            },
+            {
+               "rank": 1,
+               "masteryId": 4324
+            },
+            {
+               "rank": 1,
+               "masteryId": 4334
+            }
+         ],
+         "bot": false,
+         "runes": [
+            {
+               "count": 9,
+               "runeId": 5273
+            },
+            {
+               "count": 9,
+               "runeId": 5296
+            },
+            {
+               "count": 9,
+               "runeId": 5316
+            },
+            {
+               "count": 3,
+               "runeId": 5357
+            }
+         ],
+         "spell2Id": 4,
+         "profileIconId": 561,
+         "summonerName": "Jesse McFaddin",
+         "championId": 268,
+         "teamId": 100,
+         "summonerId": 35972213,
+         "spell1Id": 3
+      },
+      {
+         "masteries": [
+            {
+               "rank": 2,
+               "masteryId": 4211
+            },
+            {
+               "rank": 2,
+               "masteryId": 4213
+            },
+            {
+               "rank": 1,
+               "masteryId": 4221
+            },
+            {
+               "rank": 3,
+               "masteryId": 4222
+            },
+            {
+               "rank": 1,
+               "masteryId": 4231
+            },
+            {
+               "rank": 1,
+               "masteryId": 4232
+            },
+            {
+               "rank": 3,
+               "masteryId": 4233
+            },
+            {
+               "rank": 1,
+               "masteryId": 4234
+            },
+            {
+               "rank": 1,
+               "masteryId": 4242
+            },
+            {
+               "rank": 1,
+               "masteryId": 4243
+            },
+            {
+               "rank": 3,
+               "masteryId": 4252
+            },
+            {
+               "rank": 1,
+               "masteryId": 4253
+            },
+            {
+               "rank": 1,
+               "masteryId": 4262
+            },
+            {
+               "rank": 1,
+               "masteryId": 4311
+            },
+            {
+               "rank": 3,
+               "masteryId": 4312
+            },
+            {
+               "rank": 3,
+               "masteryId": 4322
+            },
+            {
+               "rank": 1,
+               "masteryId": 4324
+            },
+            {
+               "rank": 1,
+               "masteryId": 4334
+            }
+         ],
+         "bot": false,
+         "runes": [
+            {
+               "count": 9,
+               "runeId": 5257
+            },
+            {
+               "count": 4,
+               "runeId": 5289
+            },
+            {
+               "count": 5,
+               "runeId": 5290
+            },
+            {
+               "count": 9,
+               "runeId": 5317
+            },
+            {
+               "count": 3,
+               "runeId": 5345
+            }
+         ],
+         "spell2Id": 4,
+         "profileIconId": 839,
+         "summonerName": "Zyale",
+         "championId": 201,
+         "teamId": 100,
+         "summonerId": 36356055,
+         "spell1Id": 14
+      },
+      {
+         "masteries": [
+            {
+               "rank": 3,
+               "masteryId": 4112
+            },
+            {
+               "rank": 1,
+               "masteryId": 4114
+            },
+            {
+               "rank": 3,
+               "masteryId": 4122
+            },
+            {
+               "rank": 1,
+               "masteryId": 4124
+            },
+            {
+               "rank": 1,
+               "masteryId": 4131
+            },
+            {
+               "rank": 1,
+               "masteryId": 4132
+            },
+            {
+               "rank": 3,
+               "masteryId": 4134
+            },
+            {
+               "rank": 1,
+               "masteryId": 4141
+            },
+            {
+               "rank": 1,
+               "masteryId": 4142
+            },
+            {
+               "rank": 1,
+               "masteryId": 4144
+            },
+            {
+               "rank": 1,
+               "masteryId": 4151
+            },
+            {
+               "rank": 3,
+               "masteryId": 4152
+            },
+            {
+               "rank": 1,
+               "masteryId": 4162
+            },
+            {
+               "rank": 2,
+               "masteryId": 4211
+            },
+            {
+               "rank": 2,
+               "masteryId": 4212
+            },
+            {
+               "rank": 1,
+               "masteryId": 4221
+            },
+            {
+               "rank": 3,
+               "masteryId": 4222
+            },
+            {
+               "rank": 1,
+               "masteryId": 4232
+            }
+         ],
+         "bot": false,
+         "runes": [
+            {
+               "count": 9,
+               "runeId": 5245
+            },
+            {
+               "count": 9,
+               "runeId": 5289
+            },
+            {
+               "count": 9,
+               "runeId": 5316
+            },
+            {
+               "count": 3,
+               "runeId": 5337
+            }
+         ],
+         "spell2Id": 7,
+         "profileIconId": 718,
+         "summonerName": "Kamikuri",
+         "championId": 236,
+         "teamId": 100,
+         "summonerId": 50713513,
+         "spell1Id": 4
+      },
+      {
+         "masteries": [
+            {
+               "rank": 2,
+               "masteryId": 4211
+            },
+            {
+               "rank": 2,
+               "masteryId": 4212
+            },
+            {
+               "rank": 1,
+               "masteryId": 4221
+            },
+            {
+               "rank": 3,
+               "masteryId": 4222
+            },
+            {
+               "rank": 1,
+               "masteryId": 4232
+            },
+            {
+               "rank": 3,
+               "masteryId": 4233
+            },
+            {
+               "rank": 3,
+               "masteryId": 4241
+            },
+            {
+               "rank": 1,
+               "masteryId": 4242
+            },
+            {
+               "rank": 3,
+               "masteryId": 4313
+            },
+            {
+               "rank": 1,
+               "masteryId": 4314
+            },
+            {
+               "rank": 3,
+               "masteryId": 4322
+            },
+            {
+               "rank": 1,
+               "masteryId": 4324
+            },
+            {
+               "rank": 3,
+               "masteryId": 4331
+            },
+            {
+               "rank": 1,
+               "masteryId": 4334
+            },
+            {
+               "rank": 1,
+               "masteryId": 4341
+            },
+            {
+               "rank": 1,
+               "masteryId": 4342
+            }
+         ],
+         "bot": false,
+         "runes": [
+            {
+               "count": 9,
+               "runeId": 5257
+            },
+            {
+               "count": 9,
+               "runeId": 5289
+            },
+            {
+               "count": 9,
+               "runeId": 5317
+            },
+            {
+               "count": 2,
+               "runeId": 5345
+            },
+            {
+               "count": 1,
+               "runeId": 8021
+            }
+         ],
+         "spell2Id": 14,
+         "profileIconId": 616,
+         "summonerName": "Kasuka",
+         "championId": 12,
+         "teamId": 200,
+         "summonerId": 21239624,
+         "spell1Id": 4
+      },
+      {
+         "masteries": [
+            {
+               "rank": 4,
+               "masteryId": 4112
+            },
+            {
+               "rank": 1,
+               "masteryId": 4114
+            },
+            {
+               "rank": 3,
+               "masteryId": 4122
+            },
+            {
+               "rank": 1,
+               "masteryId": 4124
+            },
+            {
+               "rank": 1,
+               "masteryId": 4131
+            },
+            {
+               "rank": 1,
+               "masteryId": 4132
+            },
+            {
+               "rank": 3,
+               "masteryId": 4134
+            },
+            {
+               "rank": 1,
+               "masteryId": 4141
+            },
+            {
+               "rank": 1,
+               "masteryId": 4144
+            },
+            {
+               "rank": 1,
+               "masteryId": 4151
+            },
+            {
+               "rank": 3,
+               "masteryId": 4152
+            },
+            {
+               "rank": 1,
+               "masteryId": 4162
+            },
+            {
+               "rank": 2,
+               "masteryId": 4211
+            },
+            {
+               "rank": 2,
+               "masteryId": 4212
+            },
+            {
+               "rank": 1,
+               "masteryId": 4221
+            },
+            {
+               "rank": 3,
+               "masteryId": 4222
+            },
+            {
+               "rank": 1,
+               "masteryId": 4232
+            }
+         ],
+         "bot": false,
+         "runes": [
+            {
+               "count": 9,
+               "runeId": 5245
+            },
+            {
+               "count": 9,
+               "runeId": 5290
+            },
+            {
+               "count": 9,
+               "runeId": 5317
+            },
+            {
+               "count": 3,
+               "runeId": 5337
+            }
+         ],
+         "spell2Id": 4,
+         "profileIconId": 588,
+         "summonerName": "Only Mundo",
+         "championId": 42,
+         "teamId": 200,
+         "summonerId": 30262503,
+         "spell1Id": 7
+      },
+      {
+         "masteries": [
+            {
+               "rank": 1,
+               "masteryId": 4111
+            },
+            {
+               "rank": 4,
+               "masteryId": 4112
+            },
+            {
+               "rank": 1,
+               "masteryId": 4114
+            },
+            {
+               "rank": 3,
+               "masteryId": 4122
+            },
+            {
+               "rank": 1,
+               "masteryId": 4124
+            },
+            {
+               "rank": 1,
+               "masteryId": 4131
+            },
+            {
+               "rank": 1,
+               "masteryId": 4132
+            },
+            {
+               "rank": 3,
+               "masteryId": 4134
+            },
+            {
+               "rank": 1,
+               "masteryId": 4141
+            },
+            {
+               "rank": 1,
+               "masteryId": 4144
+            },
+            {
+               "rank": 3,
+               "masteryId": 4152
+            },
+            {
+               "rank": 1,
+               "masteryId": 4162
+            },
+            {
+               "rank": 2,
+               "masteryId": 4212
+            },
+            {
+               "rank": 2,
+               "masteryId": 4214
+            },
+            {
+               "rank": 3,
+               "masteryId": 4222
+            },
+            {
+               "rank": 1,
+               "masteryId": 4224
+            },
+            {
+               "rank": 1,
+               "masteryId": 4232
+            }
+         ],
+         "bot": false,
+         "runes": [
+            {
+               "count": 9,
+               "runeId": 5245
+            },
+            {
+               "count": 3,
+               "runeId": 5289
+            },
+            {
+               "count": 6,
+               "runeId": 5295
+            },
+            {
+               "count": 9,
+               "runeId": 5317
+            },
+            {
+               "count": 3,
+               "runeId": 5337
+            }
+         ],
+         "spell2Id": 4,
+         "profileIconId": 693,
+         "summonerName": "max range b",
+         "championId": 105,
+         "teamId": 200,
+         "summonerId": 59632081,
+         "spell1Id": 11
+      },
+      {
+         "masteries": [
+            {
+               "rank": 1,
+               "masteryId": 4111
+            },
+            {
+               "rank": 2,
+               "masteryId": 4112
+            },
+            {
+               "rank": 1,
+               "masteryId": 4114
+            },
+            {
+               "rank": 3,
+               "masteryId": 4122
+            },
+            {
+               "rank": 1,
+               "masteryId": 4124
+            },
+            {
+               "rank": 1,
+               "masteryId": 4131
+            },
+            {
+               "rank": 1,
+               "masteryId": 4132
+            },
+            {
+               "rank": 3,
+               "masteryId": 4134
+            },
+            {
+               "rank": 1,
+               "masteryId": 4141
+            },
+            {
+               "rank": 1,
+               "masteryId": 4142
+            },
+            {
+               "rank": 1,
+               "masteryId": 4144
+            },
+            {
+               "rank": 1,
+               "masteryId": 4151
+            },
+            {
+               "rank": 3,
+               "masteryId": 4152
+            },
+            {
+               "rank": 1,
+               "masteryId": 4162
+            },
+            {
+               "rank": 2,
+               "masteryId": 4211
+            },
+            {
+               "rank": 2,
+               "masteryId": 4212
+            },
+            {
+               "rank": 1,
+               "masteryId": 4221
+            },
+            {
+               "rank": 3,
+               "masteryId": 4222
+            },
+            {
+               "rank": 1,
+               "masteryId": 4232
+            }
+         ],
+         "bot": false,
+         "runes": [
+            {
+               "count": 9,
+               "runeId": 5245
+            },
+            {
+               "count": 9,
+               "runeId": 5289
+            },
+            {
+               "count": 9,
+               "runeId": 5317
+            },
+            {
+               "count": 3,
+               "runeId": 5335
+            }
+         ],
+         "spell2Id": 14,
+         "profileIconId": 28,
+         "summonerName": "50 Shades of Eyy",
+         "championId": 157,
+         "teamId": 200,
+         "summonerId": 63556984,
+         "spell1Id": 4
+      },
+      {
+         "masteries": [
+            {
+               "rank": 1,
+               "masteryId": 4111
+            },
+            {
+               "rank": 4,
+               "masteryId": 4113
+            },
+            {
+               "rank": 3,
+               "masteryId": 4122
+            },
+            {
+               "rank": 1,
+               "masteryId": 4131
+            },
+            {
+               "rank": 1,
+               "masteryId": 4132
+            },
+            {
+               "rank": 3,
+               "masteryId": 4134
+            },
+            {
+               "rank": 1,
+               "masteryId": 4141
+            },
+            {
+               "rank": 3,
+               "masteryId": 4142
+            },
+            {
+               "rank": 3,
+               "masteryId": 4152
+            },
+            {
+               "rank": 1,
+               "masteryId": 4162
+            },
+            {
+               "rank": 2,
+               "masteryId": 4211
+            },
+            {
+               "rank": 2,
+               "masteryId": 4212
+            },
+            {
+               "rank": 1,
+               "masteryId": 4221
+            },
+            {
+               "rank": 3,
+               "masteryId": 4222
+            },
+            {
+               "rank": 1,
+               "masteryId": 4232
+            }
+         ],
+         "bot": false,
+         "runes": [
+            {
+               "count": 9,
+               "runeId": 5245
+            },
+            {
+               "count": 9,
+               "runeId": 5290
+            },
+            {
+               "count": 9,
+               "runeId": 5317
+            },
+            {
+               "count": 3,
+               "runeId": 5335
+            }
+         ],
+         "spell2Id": 12,
+         "profileIconId": 752,
+         "summonerName": "Op Opie",
+         "championId": 48,
+         "teamId": 200,
+         "summonerId": 34972007,
+         "spell1Id": 4
+      }
+   ],
+   "platformId": "NA1"
+}
+
+{
+   "29393009": [
+      {
+         "queue": "RANKED_SOLO_5x5",
+         "name": "Cassiopeia's Blackguards",
+         "entries": [{
+            "leaguePoints": 78,
+            "isFreshBlood": false,
+            "isHotStreak": true,
+            "division": "IV",
+            "isInactive": false,
+            "isVeteran": true,
+            "losses": 228,
+            "playerOrTeamName": "Le Petit Negro",
+            "playerOrTeamId": "29393009",
+            "wins": 270
+         }],
+         "tier": "DIAMOND"
+      },
+      {
+         "queue": "RANKED_TEAM_5x5",
+         "name": "Katarina's Reapers",
+         "entries": [{
+            "leaguePoints": 0,
+            "isFreshBlood": false,
+            "isHotStreak": false,
+            "division": "III",
+            "isInactive": false,
+            "isVeteran": false,
+            "losses": 14,
+            "playerOrTeamName": "le petit niglets",
+            "playerOrTeamId": "TEAM-d68a9090-fb78-11e4-aaad-c81f66dcfb5a",
+            "wins": 16
+         }],
+         "tier": "GOLD"
+      },
+      {
+         "queue": "RANKED_TEAM_3x3",
+         "name": "Orianna's Warmongers",
+         "entries": [{
+            "leaguePoints": 0,
+            "isFreshBlood": false,
+            "isHotStreak": false,
+            "division": "V",
+            "isInactive": false,
+            "isVeteran": false,
+            "losses": 2,
+            "playerOrTeamName": "Onii chan plzz",
+            "playerOrTeamId": "TEAM-9340ee20-fded-11e4-8e3e-c81f66ddabda",
+            "wins": 3
+         }],
+         "tier": "GOLD"
+      }
+   ],
+   "36356055": [
+      {
+         "queue": "RANKED_SOLO_5x5",
+         "name": "Riven's Cutthroats",
+         "entries": [{
+            "leaguePoints": 36,
+            "isFreshBlood": false,
+            "isHotStreak": false,
+            "division": "III",
+            "isInactive": false,
+            "isVeteran": true,
+            "losses": 161,
+            "playerOrTeamName": "Zyale",
+            "playerOrTeamId": "36356055",
+            "wins": 167
+         }],
+         "tier": "DIAMOND"
+      },
+      {
+         "queue": "RANKED_TEAM_3x3",
+         "name": "Nautilus's Cutthroats",
+         "entries": [{
+            "leaguePoints": 44,
+            "isFreshBlood": false,
+            "isHotStreak": false,
+            "division": "III",
+            "isInactive": false,
+            "isVeteran": false,
+            "losses": 13,
+            "playerOrTeamName": "Bucheron",
+            "playerOrTeamId": "TEAM-d0b75eb0-f67d-11e3-8c55-782bcb4d0bb2",
+            "wins": 18
+         }],
+         "tier": "PLATINUM"
+      },
+      {
+         "queue": "RANKED_TEAM_5x5",
+         "name": "Ashe's Judicators",
+         "entries": [{
+            "leaguePoints": 81,
+            "isFreshBlood": false,
+            "isHotStreak": false,
+            "division": "V",
+            "isInactive": false,
+            "isVeteran": false,
+            "losses": 18,
+            "playerOrTeamName": "Bucheron",
+            "playerOrTeamId": "TEAM-d0b75eb0-f67d-11e3-8c55-782bcb4d0bb2",
+            "wins": 18
+         }],
+         "tier": "SILVER"
+      },
+      {
+         "queue": "RANKED_TEAM_5x5",
+         "name": "Elise's Berserkers",
+         "entries": [{
+            "leaguePoints": 34,
+            "isFreshBlood": false,
+            "isHotStreak": false,
+            "division": "V",
+            "isInactive": false,
+            "isVeteran": false,
+            "losses": 3,
+            "playerOrTeamName": "C0UR4G3",
+            "playerOrTeamId": "TEAM-960f20b0-a1d4-11e4-bc58-c81f66dcfb5a",
+            "wins": 3
+         }],
+         "tier": "BRONZE"
+      },
+      {
+         "queue": "RANKED_TEAM_5x5",
+         "name": "Rammus's Scouts",
+         "entries": [{
+            "leaguePoints": 32,
+            "isFreshBlood": false,
+            "isHotStreak": false,
+            "division": "I",
+            "isInactive": false,
+            "isVeteran": false,
+            "losses": 3,
+            "playerOrTeamName": "Congratz",
+            "playerOrTeamId": "TEAM-9c3f5500-13b6-11e5-87b6-c81f66dd45c9",
+            "wins": 3
+         }],
+         "tier": "BRONZE"
+      }
+   ],
+   "50713513": [
+      {
+         "queue": "RANKED_SOLO_5x5",
+         "name": "Ryze's Emmissaries",
+         "entries": [{
+            "leaguePoints": 67,
+            "isFreshBlood": false,
+            "isHotStreak": false,
+            "division": "IV",
+            "isInactive": false,
+            "isVeteran": true,
+            "losses": 334,
+            "playerOrTeamName": "Kamikuri",
+            "playerOrTeamId": "50713513",
+            "wins": 347
+         }],
+         "tier": "DIAMOND"
+      },
+      {
+         "queue": "RANKED_TEAM_5x5",
+         "name": "Sona's Scions",
+         "entries": [{
+            "leaguePoints": 5,
+            "isFreshBlood": false,
+            "isHotStreak": false,
+            "division": "IV",
+            "isInactive": false,
+            "isVeteran": false,
+            "losses": 5,
+            "playerOrTeamName": "CaseATeam",
+            "playerOrTeamId": "TEAM-5063ea10-4ff3-11e4-a135-782bcb4d1861",
+            "wins": 4
+         }],
+         "tier": "PLATINUM"
+      }
+   ],
+   "30262503": [{
+      "queue": "RANKED_SOLO_5x5",
+      "name": "Darius's Crushers",
+      "entries": [{
+         "leaguePoints": 64,
+         "isFreshBlood": false,
+         "isHotStreak": false,
+         "division": "III",
+         "isInactive": false,
+         "isVeteran": true,
+         "losses": 74,
+         "playerOrTeamName": "Only Mundo",
+         "playerOrTeamId": "30262503",
+         "wins": 93
+      }],
+      "tier": "DIAMOND"
+   }],
+   "63556984": [{
+      "queue": "RANKED_SOLO_5x5",
+      "name": "Cassiopeia's Spellslingers",
+      "entries": [{
+         "leaguePoints": 5,
+         "isFreshBlood": true,
+         "isHotStreak": false,
+         "division": "III",
+         "isInactive": false,
+         "isVeteran": false,
+         "losses": 30,
+         "playerOrTeamName": "50 Shades of Eyy",
+         "playerOrTeamId": "63556984",
+         "wins": 71
+      }],
+      "tier": "DIAMOND"
+   }],
+   "34972007": [
+      {
+         "queue": "RANKED_SOLO_5x5",
+         "name": "Poppy's Paladins",
+         "entries": [{
+            "leaguePoints": 59,
+            "isFreshBlood": false,
+            "isHotStreak": false,
+            "division": "IV",
+            "isInactive": false,
+            "isVeteran": true,
+            "losses": 280,
+            "playerOrTeamName": "Op Opie",
+            "playerOrTeamId": "34972007",
+            "wins": 299
+         }],
+         "tier": "DIAMOND"
+      },
+      {
+         "queue": "RANKED_TEAM_5x5",
+         "name": "Nasus's Heralds",
+         "entries": [{
+            "leaguePoints": 26,
+            "isFreshBlood": false,
+            "isHotStreak": false,
+            "division": "I",
+            "isInactive": false,
+            "isVeteran": false,
+            "losses": 17,
+            "playerOrTeamName": "Valkyrie Squad",
+            "playerOrTeamId": "TEAM-c73dd300-ab18-11e4-adbc-c81f66dcfb5a",
+            "wins": 19
+         }],
+         "tier": "SILVER"
+      },
+      {
+         "queue": "RANKED_TEAM_3x3",
+         "name": "Wukong's Swashbucklers",
+         "entries": [{
+            "leaguePoints": 2,
+            "isFreshBlood": false,
+            "isHotStreak": false,
+            "division": "V",
+            "isInactive": false,
+            "isVeteran": false,
+            "losses": 13,
+            "playerOrTeamName": "WeAreTheTitans",
+            "playerOrTeamId": "TEAM-303034d0-7742-11e4-8600-c81f66dd45c9",
+            "wins": 6
+         }],
+         "tier": "BRONZE"
+      },
+      {
+         "queue": "RANKED_TEAM_5x5",
+         "name": "Skarner's Tricksters",
+         "entries": [{
+            "leaguePoints": 0,
+            "isFreshBlood": false,
+            "isHotStreak": false,
+            "division": "V",
+            "isInactive": false,
+            "isVeteran": false,
+            "losses": 4,
+            "playerOrTeamName": "WeAreTheTitans",
+            "playerOrTeamId": "TEAM-303034d0-7742-11e4-8600-c81f66dd45c9",
+            "wins": 3
+         }],
+         "tier": "BRONZE"
+      },
+      {
+         "queue": "RANKED_TEAM_5x5",
+         "name": "Amumu's Captains",
+         "entries": [{
+            "leaguePoints": 19,
+            "isFreshBlood": false,
+            "isHotStreak": false,
+            "division": "IV",
+            "isInactive": false,
+            "isVeteran": false,
+            "losses": 4,
+            "playerOrTeamName": "FlyingNovaTigerz",
+            "playerOrTeamId": "TEAM-83658d50-f909-11e4-ad89-c81f66dd45c9",
+            "wins": 3
+         }],
+         "tier": "BRONZE"
+      }
+   ],
+   "68799078": [{
+      "queue": "RANKED_SOLO_5x5",
+      "name": "Nasus's Avatars",
+      "entries": [{
+         "leaguePoints": 20,
+         "isFreshBlood": true,
+         "isHotStreak": false,
+         "division": "I",
+         "isInactive": false,
+         "isVeteran": false,
+         "losses": 30,
+         "playerOrTeamName": "200 Ping King",
+         "playerOrTeamId": "68799078",
+         "wins": 32
+      }],
+      "tier": "PLATINUM"
+   }],
+   "35972213": [
+      {
+         "queue": "RANKED_SOLO_5x5",
+         "name": "Teemo's Scouts",
+         "entries": [{
+            "leaguePoints": 75,
+            "isFreshBlood": false,
+            "isHotStreak": false,
+            "division": "IV",
+            "isInactive": false,
+            "isVeteran": true,
+            "losses": 272,
+            "playerOrTeamName": "Jesse McFaddin",
+            "playerOrTeamId": "35972213",
+            "wins": 283
+         }],
+         "tier": "DIAMOND"
+      },
+      {
+         "queue": "RANKED_TEAM_5x5",
+         "name": "Alistar's Gladiators",
+         "entries": [{
+            "leaguePoints": 81,
+            "isFreshBlood": false,
+            "isHotStreak": false,
+            "division": "III",
+            "isInactive": false,
+            "isVeteran": false,
+            "losses": 10,
+            "playerOrTeamName": "Takashi Kingdom",
+            "playerOrTeamId": "TEAM-1deed910-2e19-11e4-b418-782bcb4d0bb2",
+            "wins": 13
+         }],
+         "tier": "GOLD"
+      },
+      {
+         "queue": "RANKED_TEAM_5x5",
+         "name": "Orianna's Scions",
+         "entries": [{
+            "leaguePoints": 0,
+            "isFreshBlood": false,
+            "isHotStreak": false,
+            "division": "III",
+            "isInactive": false,
+            "isVeteran": false,
+            "losses": 2,
+            "playerOrTeamName": "Rei Factory",
+            "playerOrTeamId": "TEAM-bd637730-fb2d-11e4-a5a6-c81f66dd45c9",
+            "wins": 11
+         }],
+         "tier": "GOLD"
+      },
+      {
+         "queue": "RANKED_TEAM_5x5",
+         "name": "Alistar's Gladiators",
+         "entries": [{
+            "leaguePoints": 28,
+            "isFreshBlood": false,
+            "isHotStreak": false,
+            "division": "II",
+            "isInactive": false,
+            "isVeteran": false,
+            "losses": 6,
+            "playerOrTeamName": "ONO KAZUKI",
+            "playerOrTeamId": "TEAM-b25b9d50-20b7-11e4-b41a-782bcb4d0bb2",
+            "wins": 2
+         }],
+         "tier": "GOLD"
+      }
+   ],
+   "59632081": [{
+      "queue": "RANKED_SOLO_5x5",
+      "name": "Vi's Wardens",
+      "entries": [{
+         "leaguePoints": 95,
+         "isFreshBlood": false,
+         "isHotStreak": false,
+         "division": "III",
+         "isInactive": false,
+         "isVeteran": true,
+         "losses": 233,
+         "playerOrTeamName": "max range b",
+         "playerOrTeamId": "59632081",
+         "wins": 260
+      }],
+      "tier": "DIAMOND"
+   }],
+   "21239624": [
+      {
+         "queue": "RANKED_SOLO_5x5",
+         "name": "Caitlyn's Zealots",
+         "entries": [{
+            "leaguePoints": 62,
+            "isFreshBlood": false,
+            "isHotStreak": true,
+            "division": "III",
+            "isInactive": false,
+            "isVeteran": true,
+            "losses": 213,
+            "playerOrTeamName": "Kasuka",
+            "playerOrTeamId": "21239624",
+            "wins": 213
+         }],
+         "tier": "DIAMOND"
+      },
+      {
+         "queue": "RANKED_TEAM_5x5",
+         "name": "Soraka's Dervish",
+         "entries": [{
+            "leaguePoints": 40,
+            "isFreshBlood": false,
+            "isHotStreak": false,
+            "division": "II",
+            "isInactive": false,
+            "isVeteran": false,
+            "losses": 6,
+            "playerOrTeamName": "MediumDiqTommy",
+            "playerOrTeamId": "TEAM-621ba3b0-282f-11e4-91d2-782bcb4d0bb2",
+            "wins": 8
+         }],
+         "tier": "PLATINUM"
+      },
+      {
+         "queue": "RANKED_TEAM_5x5",
+         "name": "Zilean's Runemasters",
+         "entries": [{
+            "leaguePoints": 0,
+            "isFreshBlood": false,
+            "isHotStreak": false,
+            "division": "V",
+            "isInactive": false,
+            "isVeteran": false,
+            "losses": 1,
+            "playerOrTeamName": "XIVIIVIIXIXIVIIV",
+            "playerOrTeamId": "TEAM-84fe59c0-0030-11e5-bc58-c81f66dcfb5a",
+            "wins": 4
+         }],
+         "tier": "PLATINUM"
+      }
+   ]
+}
